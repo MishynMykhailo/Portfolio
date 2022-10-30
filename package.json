@@ -17,6 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "author": "Mishyn Mykhailo <misham18092001@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://mishynmykhailo.github.io/Portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
