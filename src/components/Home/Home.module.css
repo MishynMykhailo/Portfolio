@@ -1,0 +1,16 @@
+.divSeparation {
+  display: flex;
+}
+.left {
+  width: 600px;
+  border: 1px solid red;
+}
+.right {
+  width: 600px;
+  border: 1px solid green;
+}
+.down {
+  display: flex;
+  border: 1px solid blue;
+  height: 50px;
+}

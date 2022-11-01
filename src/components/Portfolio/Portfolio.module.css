@@ -1,0 +1,7 @@
+.div {
+  display: flex;
+}
+.ul {
+  display: grid;
+  grid-template-columns: (0, 4fr);
+}
