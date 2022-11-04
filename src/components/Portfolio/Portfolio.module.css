@@ -1,7 +1,13 @@
 .div {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .ul {
   display: grid;
-  grid-template-columns: (0, 4fr);
+  grid-template-columns: repeat(4, 0fr);
+  gap: 15px;
+}
+.li {
+  border: 1px solid black;
 }

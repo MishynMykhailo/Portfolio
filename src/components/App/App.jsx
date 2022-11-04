@@ -1,4 +1,6 @@
 // import s from "./App.module.css";
+import About from "../About/About";
+import Career from "../Career/Career";
 import Container from "../Container/Container";
 import Home from "../Home/Home";
 import NavBar from "../NavBar/NavBar";
@@ -13,6 +15,8 @@ function App() {
         <Home />
         <Skills />
         <Portfolio />
+        <Career />
+        <About />
       </Container>
     </>
   );

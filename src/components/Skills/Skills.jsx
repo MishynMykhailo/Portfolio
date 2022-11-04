@@ -6,12 +6,30 @@ function Skills() {
       <div className={s.div}>
         <h2>Skills</h2>
         <ul className={s.ul}>
-          <li className={s.li}>HTML/CSS</li>
-          <li className={s.li}>JS</li>
-          <li className={s.li}>React</li>
-          <li className={s.li}>Redux</li>
-          <li className={s.li}>Node.js</li>
-          <li className={s.li}>Git</li>
+          <li className={s.li}>
+            <img />
+            <p>HTML/CSS</p>
+          </li>
+          <li className={s.li}>
+            <img />
+            <p>JS</p>
+          </li>
+          <li className={s.li}>
+            <img />
+            <p>React</p>
+          </li>
+          <li className={s.li}>
+            <img />
+            <p>Redux</p>
+          </li>
+          <li className={s.li}>
+            <img />
+            <p>Node.js</p>
+          </li>
+          <li className={s.li}>
+            <img />
+            <p>Git</p>
+          </li>
         </ul>
       </div>
     </>
