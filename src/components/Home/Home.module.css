@@ -8,9 +8,21 @@
 .right {
   width: 600px;
   border: 1px solid green;
-}
-.down {
+  justify-content: center;
   display: flex;
-  border: 1px solid blue;
-  height: 50px;
+  flex-direction: column;
+}
+.download {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 100%;
 }

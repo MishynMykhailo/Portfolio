@@ -1,6 +1,6 @@
 import * as React from "react";
 import s from "./Portfolio.module.css";
-import images from "../../images/portfolio/";
+import images from "../../images/portfolio";
 
 function Portfolio() {
   return (
@@ -9,7 +9,6 @@ function Portfolio() {
         <h2 className={s.h2}>Project</h2>
         <ul className={s.ul}>
           {images.map((image) => {
-            console.log(image);
             return (
               <li key={image.name} className={s.li}>
                 <img className={s.img} src={image.img} alt={image.name} />
