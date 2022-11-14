@@ -1,6 +1,5 @@
 .container {
   width: 1200px;
-  padding: 0 15px 0 15px;
+  padding: 15px 15px 15px 15px;
   margin: 0 auto;
-  border: 1px solid rgb(123, 74, 226, 0.2);
 }

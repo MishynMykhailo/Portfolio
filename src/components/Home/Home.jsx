@@ -12,8 +12,8 @@ function Home() {
   }, []);
   return (
     <>
-      <main>
-        <div className={s.divSeparation}>
+      <main className={s.main}>
+        <div className={s.div}>
           <div className={s.left}>
             <img
               className={s.img}
@@ -30,11 +30,25 @@ function Home() {
           </div>
         </div>
 
-        <button className={s.download} type="submit">
-          <a href="https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0&export=download">
-            Download CV
-          </a>
-        </button>
+        <div className={s.divButton}>
+          <button
+            className={s.download}
+            type="submit"
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0"
+              );
+            }}
+          >
+            <a
+              className={s.a}
+              target="blank"
+              href="https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0&export"
+            >
+              Download CV
+            </a>
+          </button>
+        </div>
       </main>
     </>
   );

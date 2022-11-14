@@ -1,21 +1,22 @@
 @import-normalize; /* bring in normalize.css styles */
 :root {
   /* ---------------------COLOR--------------------------------------- */
-  --primary-text-color: #212121;
+  /* --primary-text-color: #212121; */
   --text-color: rgba(255, 255, 255, 0.5);
-  --primary-bg-color: #090e16;
-  --transparent-color: rgb(123, 74, 226, 0.2);
+  --main-bg-color: #090e16;
+  --primary-bg-color: rgb(123, 74, 226);
+  --transparent-color: rgba(123, 74, 226, 0.5);
   /* -------------------------FONTS----------------------------------- */
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--main-bg-color);
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--text-color);
 }
 
 code {
