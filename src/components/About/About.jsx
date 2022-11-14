@@ -10,6 +10,8 @@ function About() {
         important. I am looking for my first job to gain new experience and
         develop my skills to a new level. Ready for new knowledge.
       </div>
+      <h2>Education</h2>
+      <h2>Work Expirience</h2>
     </>
   );
 }

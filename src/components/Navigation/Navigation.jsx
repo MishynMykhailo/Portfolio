@@ -19,11 +19,6 @@ const Navigation = () => {
           </a>
         </li>
         <li className={s.li}>
-          <a className={s.a} href={"#Career"}>
-            Career
-          </a>
-        </li>
-        <li className={s.li}>
           <a className={s.a} href={"#About"}>
             About
           </a>

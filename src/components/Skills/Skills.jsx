@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <div className={s.div}>
-        <h2>Skills</h2>
+        <h2 className={s.h2}>Skills</h2>
         <ul className={s.ul}>
           <li className={s.li}>
             <img src={logoTechSkills.htmlLogo} alt="htmlLogo" />
