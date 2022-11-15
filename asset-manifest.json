@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c7291faa.css",
+    "main.js": "/Portfolio/static/js/main.d4fbdcf7.js",
+    "static/media/WebStudio.jpg": "/Portfolio/static/media/WebStudio.2c4c3866662193eb0f23.jpg",
+    "static/media/Filmoteka.jpg": "/Portfolio/static/media/Filmoteka.1186de4d852f6f328f96.jpg",
+    "static/media/BookReaderBackEnd.jpg": "/Portfolio/static/media/BookReaderBackEnd.ddae4ba3a62a9a36fe00.jpg",
+    "static/media/Ice-Cream.jpg": "/Portfolio/static/media/Ice-Cream.12e04910be95379dbf23.jpg",
+    "static/media/ContactBook.jpg": "/Portfolio/static/media/ContactBook.e73bbaad86e655c4215d.jpg",
+    "static/media/nodejs-logo.png": "/Portfolio/static/media/nodejs-logo.da7e18b86e7ace9e7768.png",
+    "static/media/redux-logo.png": "/Portfolio/static/media/redux-logo.296b9306ae3e4de348c6.png",
+    "static/media/js-logo.png": "/Portfolio/static/media/js-logo.21f0e55392cebde9d165.png",
+    "static/media/html-logo.png": "/Portfolio/static/media/html-logo.e32a7a16ce91ff0e261c.png",
+    "static/media/css-logo.png": "/Portfolio/static/media/css-logo.aa1e194e116ef13bc1fe.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c7291faa.css.map": "/Portfolio/static/css/main.c7291faa.css.map",
+    "main.d4fbdcf7.js.map": "/Portfolio/static/js/main.d4fbdcf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7291faa.css",
+    "static/js/main.d4fbdcf7.js"
+  ]
+}
