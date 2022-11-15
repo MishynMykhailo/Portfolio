@@ -11,35 +11,10 @@
   display: flex;
   flex-direction: column;
 }
-.divButton {
-  padding: 20px 0 20px;
-  border-top: 1px solid var(--transparent-color);
-  border-bottom: 1px solid var(--transparent-color);
-}
-.download {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--primary-bg-color);
-}
+
 .img {
   margin-right: auto;
   margin-left: auto;
   width: 200px;
   height: 100%;
-}
-.a {
-  color: var(--text-color);
-}
-
-.download:hover,
-.download:focus {
-  background-color: var(--transparent-color);
-}
-.download:hover .a,
-.download:focus .a {
-  color: white;
 }

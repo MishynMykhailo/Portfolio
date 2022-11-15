@@ -29,26 +29,6 @@ function Home() {
             <h2>I'm web developer, and I love what I do.</h2>
           </div>
         </div>
-
-        <div className={s.divButton}>
-          <button
-            className={s.download}
-            type="submit"
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0"
-              );
-            }}
-          >
-            <a
-              className={s.a}
-              target="blank"
-              href="https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0&export"
-            >
-              Download CV
-            </a>
-          </button>
-        </div>
       </main>
     </>
   );

@@ -1,0 +1,24 @@
+.divButton {
+  padding: 20px 0 20px;
+}
+.download {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary-bg-color);
+}
+.a {
+  color: var(--text-color);
+}
+
+.download:hover,
+.download:focus {
+  background-color: var(--transparent-color);
+}
+.download:hover .a,
+.download:focus .a {
+  color: white;
+}

@@ -1,0 +1,11 @@
+.div {
+  display: flex;
+  flex-direction: column;
+
+  text-align: justify;
+}
+.h2 {
+  text-align: center;
+}
+.p {
+}
