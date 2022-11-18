@@ -7,7 +7,10 @@
   justify-content: flex-end;
 }
 .a {
+  display: flex;
+  align-items: flex-end;
   text-decoration: none;
+  padding: 10px;
   color: var(--text-color);
 }
 .a:hover,
@@ -16,4 +19,13 @@
 }
 .li:not(:last-child) {
   margin-right: 15px;
+}
+.a:hover .homeSVG {
+  fill: var(--primary-bg-color);
+  stroke: var(--main-bg-color);
+}
+.homeSVG {
+  fill: var(--main-bg-color);
+  stroke: var(--primary-bg-color);
+  margin-right: 5px;
 }

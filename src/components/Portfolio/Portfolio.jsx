@@ -5,7 +5,7 @@ import images from "../../images/portfolio";
 function Portfolio() {
   return (
     <>
-      <div className={s.div}>
+      <div className={s.div} id="Portfolio">
         <h2 className={s.h2}>Project</h2>
         <ul className={s.ul}>
           {images.map((image) => {
