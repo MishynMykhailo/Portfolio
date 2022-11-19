@@ -1,0 +1,33 @@
+.footer {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  background-color: rgba(123, 74, 226, 0.2);
+}
+.SVG {
+  stroke: var(--transparent-color);
+  fill: var(--main-bg-color);
+  width: 48px;
+  height: 48px;
+}
+.h2 {
+  margin-bottom: 15px;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.li:not(:last-child) {
+  margin-right: 15px;
+}
+.a {
+  color: var(--text-color);
+}
+.a:hover,
+.a:focus {
+  color: white;
+}
+.a:hover .SVG,
+.a:focus .SVG {
+  fill: var(--primary-bg-color);
+}

@@ -1,0 +1,18 @@
+.loader {
+  animation: rotation 1s infinite linear;
+  stroke: var(--primary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

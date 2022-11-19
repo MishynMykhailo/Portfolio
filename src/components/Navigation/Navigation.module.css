@@ -6,6 +6,13 @@
   display: flex;
   justify-content: flex-end;
 }
+.svgNav {
+  width: 24px;
+  height: 24px;
+  fill: var(--main-bg-color);
+  stroke: var(--primary-bg-color);
+  margin-right: 5px;
+}
 .a {
   display: flex;
   align-items: flex-end;
@@ -20,12 +27,8 @@
 .li:not(:last-child) {
   margin-right: 15px;
 }
-.a:hover .homeSVG {
+.a:hover .svgNav,
+.a:focus .svgNav {
   fill: var(--primary-bg-color);
   stroke: var(--main-bg-color);
-}
-.homeSVG {
-  fill: var(--main-bg-color);
-  stroke: var(--primary-bg-color);
-  margin-right: 5px;
 }

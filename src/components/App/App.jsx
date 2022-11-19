@@ -1,39 +1,44 @@
 // import s from "./App.module.css";
-import About from "../About/About";
-import Button from "../Button/Button";
-// import Career from "../Career/Career";
-import Container from "../Container/Container";
-import Home from "../Home/Home";
-import NavBar from "../NavBar/NavBar";
+import { Suspense, lazy } from "react";
+import Loader from "../Loader/Loader";
 import ParticleBackground from "../ParticleBackground/ParticleBackground";
-
-import Portfolio from "../Portfolio/Portfolio";
+import Container from "../Container/Container";
 import SectionContainer from "../SectionContainer/SectionContainer";
+import NavBar from "../NavBar/NavBar";
+import Home from "../Home/Home";
+import Button from "../Button/Button";
 import Skills from "../Skills/Skills";
+// const Portfolio = lazy(() => import("../Portfolio/Portfolio"));
+import Portfolio from "../Portfolio/Portfolio";
+const About = lazy(() => import("../About/About"));
+const Footer = lazy(() => import("../Footer/Footer"));
 
 function App() {
   return (
     <>
-      <ParticleBackground />
-      <Container>
-        <NavBar />
-        <SectionContainer>
-          <Home />
-        </SectionContainer>
-        <SectionContainer>
-          <Button />
-        </SectionContainer>
-        <SectionContainer>
-          <Skills />
-        </SectionContainer>
-        <SectionContainer>
-          <Portfolio />
-        </SectionContainer>
-        <SectionContainer>
-          <About />
-        </SectionContainer>
-        {/* <Career /> */}
-      </Container>
+      <Suspense fallback={<Loader />}>
+        <ParticleBackground />
+        <Container>
+          <NavBar />
+          <SectionContainer>
+            <Home />
+          </SectionContainer>
+          <SectionContainer>
+            <Button />
+          </SectionContainer>
+          <SectionContainer>
+            <Skills />
+          </SectionContainer>
+          <SectionContainer>
+            <Portfolio />
+          </SectionContainer>
+          <SectionContainer>
+            <About />
+          </SectionContainer>
+          {/* <Career /> */}
+          <Footer />
+        </Container>
+      </Suspense>
     </>
   );
 }

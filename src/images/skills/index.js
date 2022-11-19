@@ -7,13 +7,48 @@ import nodejsLogo from "../skills/nodejs-logo.png";
 import mongoDBLogo from "../skills/mongoDB-logo.png";
 import gitLogo from "../skills/git-logo.png";
 
-export const logoTechSkills = {
-  htmlLogo,
-  cssLogo,
-  jsLogo,
-  reactLogo,
-  reduxLogo,
-  nodejsLogo,
-  mongoDBLogo,
-  gitLogo,
-};
+// export const logoTechSkills = {
+//   htmlLogo,
+//   cssLogo,
+//   jsLogo,
+//   reactLogo,
+//   reduxLogo,
+//   nodejsLogo,
+//   mongoDBLogo,
+//   gitLogo,
+// };
+const images = [
+  {
+    name: "HTML",
+    img: htmlLogo,
+  },
+  {
+    name: "CSS",
+    img: cssLogo,
+  },
+  {
+    name: "JS",
+    img: jsLogo,
+  },
+  {
+    name: "React",
+    img: reactLogo,
+  },
+  {
+    name: "Redux",
+    img: reduxLogo,
+  },
+  {
+    name: "Node.js",
+    img: nodejsLogo,
+  },
+  {
+    name: "MongoDB",
+    img: mongoDBLogo,
+  },
+  {
+    name: "Git",
+    img: gitLogo,
+  },
+];
+export default images;

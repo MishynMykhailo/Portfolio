@@ -13,12 +13,13 @@ function Home() {
   return (
     <>
       <main className={s.main}>
-        <div className={s.div}>
+        <div className={s.div} id="home">
           <div className={s.left}>
             <img
               className={s.img}
               src={userAvatar ? userAvatar : ""}
               alt="userAvatar"
+              rel="preconnect"
             />
           </div>
           <div className={s.right}>

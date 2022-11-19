@@ -1,17 +1,23 @@
 import * as React from "react";
 import s from "./Portfolio.module.css";
 import images from "../../images/portfolio";
-
 function Portfolio() {
   return (
     <>
-      <div className={s.div} id="Portfolio">
+      <div className={s.div} id="portfolio">
         <h2 className={s.h2}>Project</h2>
         <ul className={s.ul}>
           {images.map((image) => {
             return (
               <li key={image.name} className={s.li}>
-                <img className={s.img} src={image.img} alt={image.name} />
+                <img
+                  className={s.img}
+                  src={image.img}
+                  alt={image.name}
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                />
                 <div className={s.overlay}>
                   <a href={image.demo} className={s.a}>
                     <p className={s.p}>Demo</p>

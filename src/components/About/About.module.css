@@ -1,11 +1,32 @@
 .div {
   display: flex;
   flex-direction: column;
-
   text-align: justify;
+}
+.section:not(:last-child) {
+  margin-bottom: 20px;
 }
 .h2 {
   text-align: center;
+  padding-bottom: 10px;
 }
-.p {
+.liEducation {
+  display: flex;
+}
+.liEducation:not(:last-child) {
+  margin-bottom: 15px;
+}
+.educationSVG {
+  margin-right: 15px;
+  stroke: var(--primary-bg-color);
+}
+.liWork {
+  display: flex;
+}
+.liWork:not(:last-child) {
+  margin-bottom: 15px;
+}
+.workSVG {
+  margin-right: 15px;
+  fill: var(--primary-bg-color);
 }
