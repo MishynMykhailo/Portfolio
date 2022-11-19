@@ -1,8 +1,8 @@
-import React from "react";
-import s from "./Footer.module.css";
-import { ReactComponent as GitHubSVG } from "../../images/footer/github.svg";
-import { ReactComponent as LinkedinSVG } from "../../images/footer/linkedin.svg";
-import { ReactComponent as InstagramSVG } from "../../images/footer/instagram.svg";
+import React from 'react';
+import s from './Footer.module.scss';
+import { ReactComponent as GitHubSVG } from '../../images/footer/github.svg';
+import { ReactComponent as LinkedinSVG } from '../../images/footer/linkedin.svg';
+import { ReactComponent as InstagramSVG } from '../../images/footer/instagram.svg';
 function Footer() {
   return (
     <>

@@ -1,0 +1,47 @@
+.h2 {
+  margin-bottom: 20px;
+}
+.div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ul {
+  @media screen and (max-width: 479px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  @media screen and (min-width: 480px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+  }
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70px;
+  justify-content: space-between;
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.p {
+  padding-top: 10px;
+}

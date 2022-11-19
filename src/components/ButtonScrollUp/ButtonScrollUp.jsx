@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import s from "./ButtonScrollUp.module.css";
-import { ReactComponent as ButtonScrollUpSVG } from "../../images/service/buttonScrollUp.svg";
+import React, { useState } from 'react';
+import s from './ButtonScrollUp.module.scss';
+import { ReactComponent as ButtonScrollUpSVG } from '../../images/service/buttonScrollUp.svg';
 
 function ButtonScrollUp() {
   const [visible, setVisible] = useState(false);
@@ -18,17 +18,17 @@ function ButtonScrollUp() {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
-  window.addEventListener("scroll", toggleVisible);
+  window.addEventListener('scroll', toggleVisible);
 
   return (
     <button
       onClick={scrollToTop}
       style={{
-        display: visible ? "inline" : "none",
+        display: visible ? 'inline' : 'none',
       }}
       className={s.btn}
     >

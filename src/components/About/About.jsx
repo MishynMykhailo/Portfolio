@@ -1,7 +1,7 @@
-import React from "react";
-import s from "./About.module.css";
-import { ReactComponent as EducationSVG } from "../../images/about/education.svg";
-import { ReactComponent as WorkSVG } from "../../images/about/work.svg";
+import React from 'react';
+import s from './About.module.scss';
+import { ReactComponent as EducationSVG } from '../../images/about/education.svg';
+import { ReactComponent as WorkSVG } from '../../images/about/work.svg';
 function About() {
   return (
     <>

@@ -1,13 +1,13 @@
-import * as React from "react";
-import s from "./Portfolio.module.css";
-import images from "../../images/portfolio";
+import * as React from 'react';
+import s from './Portfolio.module.scss';
+import images from '../../images/portfolio';
 function Portfolio() {
   return (
     <>
       <div className={s.div} id="portfolio">
         <h2 className={s.h2}>Project</h2>
         <ul className={s.ul}>
-          {images.map((image) => {
+          {images.map(image => {
             return (
               <li key={image.name} className={s.li}>
                 <img
@@ -19,10 +19,10 @@ function Portfolio() {
                   loading="lazy"
                 />
                 <div className={s.overlay}>
-                  <a href={image.demo} className={s.a}>
+                  <a target="blank" href={image.demo} className={s.a}>
                     <p className={s.p}>Demo</p>
                   </a>
-                  <a href={image.code} className={s.a}>
+                  <a target="blank" href={image.code} className={s.a}>
                     <p className={s.p}>Code</p>
                   </a>
                 </div>

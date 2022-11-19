@@ -1,8 +1,8 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import { getAvatarFromGitHub } from "../../service/API";
-import s from "./Home.module.css";
+import React from 'react';
+import s from './Home.module.scss';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { getAvatarFromGitHub } from '../../service/API';
 
 function Home() {
   const [userAvatar, setUserAvatar] = useState(null);
@@ -17,7 +17,7 @@ function Home() {
           <div className={s.left}>
             <img
               className={s.img}
-              src={userAvatar ? userAvatar : ""}
+              src={userAvatar ? userAvatar : ''}
               alt="userAvatar"
               rel="preconnect"
             />

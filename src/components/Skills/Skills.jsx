@@ -1,6 +1,6 @@
-import React from "react";
-import s from "./Skills.module.css";
-import images from "../../images/skills";
+import React from 'react';
+import s from './Skills.module.scss';
+import images from '../../images/skills';
 function Skills() {
   return (
     <>
