@@ -8,6 +8,7 @@
   fill: var(--main-bg-color);
   width: 48px;
   height: 48px;
+  transition: fill 250ms var(--main-transition);
 }
 .h2 {
   margin-bottom: 15px;
@@ -17,17 +18,21 @@
   flex-direction: row;
   justify-content: center;
 }
-.li:not(:last-child) {
-  margin-right: 15px;
+.li {
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
 }
+
 .a {
   color: var(--text-color);
-}
-.a:hover,
-.a:focus {
-  color: white;
-}
-.a:hover .SVG,
-.a:focus .SVG {
-  fill: var(--primary-bg-color);
+  transition: color 250ms var(--main-transition);
+  &:hover,
+  &:focus {
+    color: white;
+  }
+  &:hover .SVG,
+  &:focus .SVG {
+    fill: var(--primary-bg-color);
+  }
 }

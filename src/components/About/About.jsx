@@ -19,9 +19,11 @@ function About() {
           <h2 className={s.h2}>Education</h2>
           <ul className={s.ulEducation}>
             <li className={s.liEducation}>
-              <EducationSVG className={s.educationSVG} />
               <span>
-                <p>
+                <EducationSVG className={s.educationSVG} />
+              </span>
+              <span className={s.span}>
+                <p className={s.namePosition}>
                   Full stack Developer (Frontend + Backend) - IT School "GoIT"
                 </p>
                 <p>Oct 2021 - Oct 2022</p>
@@ -29,9 +31,13 @@ function About() {
               </span>
             </li>
             <li className={s.liEducation}>
-              <EducationSVG className={s.educationSVG} />
               <span>
-                <p>University of Customs and Finance </p>
+                <EducationSVG className={s.educationSVG} />
+              </span>
+              <span className={s.span}>
+                <p className={s.namePosition}>
+                  University of Customs and Finance{' '}
+                </p>
                 <p>2019 - 2023 Transport</p>
                 <p>Technologies/Logistics</p>
               </span>
@@ -42,12 +48,15 @@ function About() {
           <h2 className={s.h2}>Work Expirience</h2>
           <ul className={s.ulWork}>
             <li className={s.liWork}>
-              <WorkSVG className={s.workSVG} />
               <span>
-                <p>Content Manager</p>
+                <WorkSVG className={s.workSVG} />
+              </span>
+              <span>
+                <p className={s.namePosition}>Content Manager</p>
                 <p>Jun 2021 - Feb 2022 | Aliance</p>
                 <p>
                   My duties included: Workedin the following CMS:
+                  <br />
                   Tilda/WordPress/OpenCart.
                   <br /> Supervising my two subordinates. Control over the
                   quality of content. Search for products and descriptions for
@@ -56,9 +65,11 @@ function About() {
               </span>
             </li>
             <li className={s.liWork}>
-              <WorkSVG className={s.workSVG} />
               <span>
-                <p>Sales Expert</p>
+                <WorkSVG className={s.workSVG} />
+              </span>
+              <span>
+                <p className={s.namePosition}>Sales Expert</p>
                 <p>Apr 2021 - Jun 2021 | Vodafone</p>
                 <p>
                   My duties included: Working with people. Assisting with

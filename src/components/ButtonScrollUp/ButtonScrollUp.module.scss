@@ -1,18 +1,25 @@
 .btn {
-  bottom: 10px;
-  right: 25px;
   position: fixed;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  z-index: 1;
+  @media screen and (max-width: 767px) {
+    bottom: 25px;
+    right: 5px;
+  }
+  @media screen and (min-width: 768px) {
+    bottom: 10px;
+    right: 25px;
+  }
 }
 .btnScroll {
   fill: var(--transparent-color);
-  /* stroke: var(--primary-bg-color); */
   width: 40px;
   height: 100%;
-}
-.btnScroll:hover,
-.btnScroll:focus {
-  fill: var(--primary-bg-color);
+  transition: fill 250ms var(--main-transition);
+  &:hover,
+  &:focus {
+    fill: var(--primary-bg-color);
+  }
 }

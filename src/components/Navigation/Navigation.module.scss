@@ -1,24 +1,29 @@
 .ul {
-  @media screen and (max-width: 479px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  @media screen and (min-width: 480px) {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     justify-content: flex-end;
   }
 }
-
+.li {
+  display: flex;
+  @media screen and (min-width: 768px) {
+    margin-right: 15px;
+  }
+}
 .svgNav {
   width: 24px;
   height: 24px;
   fill: var(--main-bg-color);
   stroke: var(--primary-bg-color);
   margin-right: 5px;
+  transition: fill 250ms var(--main-transition),
+    stroke 250ms var(--main-transition);
 }
 .a {
   display: flex;
@@ -26,16 +31,14 @@
   text-decoration: none;
   padding: 10px;
   color: var(--text-color);
-}
-.a:hover,
-.a:focus {
-  color: white;
-}
-.li:not(:last-child) {
-  margin-right: 15px;
-}
-.a:hover .svgNav,
-.a:focus .svgNav {
-  fill: var(--primary-bg-color);
-  stroke: var(--main-bg-color);
+  transition: color 250ms var(--main-transition);
+  &:hover,
+  &:focus {
+    color: white;
+  }
+  &:hover .svgNav,
+  &:focus .svgNav {
+    fill: var(--primary-bg-color);
+    stroke: var(--main-bg-color);
+  }
 }

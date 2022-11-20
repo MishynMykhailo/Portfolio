@@ -11,13 +11,13 @@ const Navigation = () => {
       <li className={s.li}>
         <a className={s.a} href={'#home'}>
           <HomeSVG className={s.svgNav} />
-          Home
+          <p>Home</p>
         </a>
       </li>
       <li className={s.li}>
         <a className={s.a} href={'#portfolio'}>
           <ProjectsSVG className={s.svgNav} />
-          Portfolio
+          <p>Portfolio</p>
         </a>
       </li>
       <li className={s.li}>
