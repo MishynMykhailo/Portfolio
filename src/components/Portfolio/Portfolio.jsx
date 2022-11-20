@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <div className={s.div} id="portfolio">
-        <h2 className={s.h2}>Project</h2>
+        <h2 className={s.h2}>Portfolio</h2>
         <ul className={s.ul}>
           {images.map(image => {
             return (

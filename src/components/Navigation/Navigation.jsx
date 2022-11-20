@@ -11,25 +11,25 @@ const Navigation = () => {
       <li className={s.li}>
         <a className={s.a} href={'#home'}>
           <HomeSVG className={s.svgNav} />
-          <p>Home</p>
+          <p className={s.p}>Home</p>
         </a>
       </li>
       <li className={s.li}>
         <a className={s.a} href={'#portfolio'}>
           <ProjectsSVG className={s.svgNav} />
-          <p>Portfolio</p>
+          <p className={s.p}>Portfolio</p>
         </a>
       </li>
       <li className={s.li}>
         <a className={s.a} href={'#skills'}>
           <SkillsSVG className={s.svgNav} />
-          Skills
+          <p className={s.p}>Skills</p>
         </a>
       </li>
       <li className={s.li}>
         <a className={s.a} href={'#about'}>
           <AboutSVG className={s.svgNav} />
-          About
+          <p className={s.p}>About</p>
         </a>
       </li>
     </ul>
