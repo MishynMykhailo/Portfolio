@@ -1,11 +1,12 @@
-import htmlLogo from "../skills/html-logo.png";
-import cssLogo from "../skills/css-logo.png";
-import jsLogo from "../skills/js-logo.png";
-import reactLogo from "../skills/react-logo.png";
-import reduxLogo from "../skills/redux-logo.png";
-import nodejsLogo from "../skills/nodejs-logo.png";
-import mongoDBLogo from "../skills/mongoDB-logo.png";
-import gitLogo from "../skills/git-logo.png";
+import htmlLogo from '../skills/html-logo.png';
+import cssLogo from '../skills/css-logo.png';
+import jsLogo from '../skills/js-logo.png';
+import reactLogo from '../skills/react-logo.png';
+import reduxLogo from '../skills/redux-logo.png';
+import nodejsLogo from '../skills/nodejs-logo.png';
+import mongoDBLogo from '../skills/mongoDB-logo.png';
+import mariaDBLogo from '../skills/mariaDB-logo.png';
+import gitLogo from '../skills/git-logo.png';
 
 // export const logoTechSkills = {
 //   htmlLogo,
@@ -19,35 +20,39 @@ import gitLogo from "../skills/git-logo.png";
 // };
 const images = [
   {
-    name: "HTML",
+    name: 'HTML',
     img: htmlLogo,
   },
   {
-    name: "CSS",
+    name: 'CSS',
     img: cssLogo,
   },
   {
-    name: "JS",
+    name: 'JS',
     img: jsLogo,
   },
   {
-    name: "React",
+    name: 'React',
     img: reactLogo,
   },
   {
-    name: "Redux",
+    name: 'Redux',
     img: reduxLogo,
   },
   {
-    name: "Node.js",
+    name: 'Node.js',
     img: nodejsLogo,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     img: mongoDBLogo,
   },
   {
-    name: "Git",
+    name: 'MariaDB',
+    img: mariaDBLogo,
+  },
+  {
+    name: 'Git',
     img: gitLogo,
   },
 ];
