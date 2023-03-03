@@ -7,14 +7,14 @@ function Button() {
       type="submit"
       onClick={() => {
         window.open(
-          'https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0'
+          'https://drive.google.com/file/d/1U_SXj33yGaE7sox2J1U67R1DiBP6ujTI/view?usp=sharing'
         );
       }}
     >
       <a
         className={s.a}
         target="blank"
-        href="https://drive.google.com/u/0/uc?id=1yVuD2zDmtBh-foqeAHuSpXGjT4_LzdG0&export"
+        href="https://drive.google.com/file/d/1U_SXj33yGaE7sox2J1U67R1DiBP6ujTI/view?usp=sharing"
       >
         Check CV
       </a>

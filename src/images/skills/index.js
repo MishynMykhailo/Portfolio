@@ -7,6 +7,9 @@ import nodejsLogo from '../skills/nodejs-logo.png';
 import mongoDBLogo from '../skills/mongoDB-logo.png';
 import mariaDBLogo from '../skills/mariaDB-logo.png';
 import gitLogo from '../skills/git-logo.png';
+import vueLogo from '../skills/vue-logo.png';
+import typeScriptLogo from '../skills/typescript-logo.png';
+import phpLogo from '../skills/php-logo.png';
 
 // export const logoTechSkills = {
 //   htmlLogo,
@@ -54,6 +57,18 @@ const images = [
   {
     name: 'Git',
     img: gitLogo,
+  },
+  {
+    name: 'Vue',
+    img: vueLogo,
+  },
+  {
+    name: 'TypeScript',
+    img: typeScriptLogo,
+  },
+  {
+    name: 'PHP',
+    img: phpLogo,
   },
 ];
 export default images;
