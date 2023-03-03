@@ -19,12 +19,17 @@ function Portfolio() {
                   loading="lazy"
                 />
                 <div className={s.overlay}>
-                  <a target="blank" href={image.demo} className={s.a}>
-                    <p className={s.p}>Demo</p>
-                  </a>
-                  <a target="blank" href={image.code} className={s.a}>
-                    <p className={s.p}>Code</p>
-                  </a>
+                  <div>
+                    <div class={s.overlayDescription}>asdsaa</div>
+                    <div class={s.overlayLink}>
+                      <a target="blank" href={image.demo} className={s.a}>
+                        <p className={s.p}>Demo</p>
+                      </a>
+                      <a target="blank" href={image.code} className={s.a}>
+                        <p className={s.p}>Code</p>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </li>
             );
