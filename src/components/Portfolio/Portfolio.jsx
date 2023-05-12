@@ -20,6 +20,7 @@ function Portfolio() {
                 />
                 <div className={s.overlay}>
                   <div>
+                    <div class={s.overlayName}>{image.name}</div>
                     <div class={s.overlayDescription}>{image.desc}</div>
                     <div class={s.overlayLink}>
                       <a target="blank" href={image.demo} className={s.a}>
