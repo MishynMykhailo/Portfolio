@@ -11,14 +11,14 @@ const images = [
   {
     name: 'bookreaderBackEnd',
     img: bookreaderBackEnd,
-    desc: 'Node.js, MongoDB, Express, Swagger',
+    desc: 'NODE.JS, MONGODB, EXPRESS, SWAGGER',
     demo: 'https://github.com/nataliakif/BR-backend',
     code: 'https://github.com/nataliakif/BR-backend',
   },
   {
     name: 'contactBook',
     img: contactBook,
-    desc: 'React/Redux, react-router, material-ul, redux-thunk',
+    desc: 'REACT/REDUX, REACT-ROUTER, MATERIAL-UI, REDUX-THUNK',
     demo: 'https://mishynmykhailo.github.io/goit-react-hw-08-phonebook/',
     code: 'https://github.com/MishynMykhailo/goit-react-hw-08-phonebook',
   },
@@ -60,7 +60,7 @@ const images = [
   {
     name: 'pizza-style-testtask',
     img: PizzaStyle,
-    desc: 'REACT, REDUX, REACT-ROUTER-DOM, PERSISTENT-STORAGE',
+    desc: 'REACT/REDUX, REACT-ROUTER-DOM, PERSISTENT-STORAGE',
     demo: 'https://mishynmykhailo.github.io/pizza-style-testtask/',
     code: 'https://github.com/MishynMykhailo/pizza-style-testtask',
   },
