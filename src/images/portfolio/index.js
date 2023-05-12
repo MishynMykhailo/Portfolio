@@ -5,6 +5,7 @@ import iceCream from '../portfolio/Ice-Cream.jpg';
 import webStudio from '../portfolio/WebStudio.jpg';
 import LaravelLibrary from '../portfolio/LaravelLibrary.jpg';
 import ParserSite from '../portfolio/ParserSite.jpg';
+import PizzaStyle from '../portfolio/PizzaStyle.jpg';
 
 const images = [
   {
@@ -55,6 +56,13 @@ const images = [
     desc: 'NODE.JS, PUPPETEER, AXIOS',
     demo: 'https://github.com/MishynMykhailo/parser-sites',
     code: 'https://github.com/MishynMykhailo/parser-sites',
+  },
+  {
+    name: 'pizza-style-testtask',
+    img: PizzaStyle,
+    desc: 'REACT, REDUX, REACT-ROUTER-DOM, PERSISTENT-STORAGE',
+    demo: 'https://mishynmykhailo.github.io/pizza-style-testtask/',
+    code: 'https://github.com/MishynMykhailo/pizza-style-testtask',
   },
 ];
 export default images;
