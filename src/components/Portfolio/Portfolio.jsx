@@ -23,9 +23,12 @@ function Portfolio() {
                     <div class={s.overlayName}>{image.name}</div>
                     <div class={s.overlayDescription}>{image.desc}</div>
                     <div class={s.overlayLink}>
-                      <a target="blank" href={image.demo} className={s.a}>
-                        <p className={s.p}>Demo</p>
-                      </a>
+                      {image.demo.length > 0 && (
+                        <a target="blank" href={image.demo} className={s.a}>
+                          <p className={s.p}>Demo</p>
+                        </a>
+                      )}
+
                       <a target="blank" href={image.code} className={s.a}>
                         <p className={s.p}>Code</p>
                       </a>

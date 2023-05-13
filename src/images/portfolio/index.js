@@ -12,7 +12,7 @@ const images = [
     name: 'bookreaderBackEnd',
     img: bookreaderBackEnd,
     desc: 'NODE.JS, MONGODB, EXPRESS, SWAGGER',
-    demo: 'https://github.com/nataliakif/BR-backend',
+    demo: '',
     code: 'https://github.com/nataliakif/BR-backend',
   },
   {
@@ -47,14 +47,14 @@ const images = [
     name: 'laravel-book-library',
     img: LaravelLibrary,
     desc: 'PHP, LARAVEL, COMPOSER',
-    demo: 'https://github.com/MishynMykhailo/Laravel-book-library',
+    demo: '',
     code: 'https://github.com/MishynMykhailo/Laravel-book-library',
   },
   {
     name: 'parser-sites',
     img: ParserSite,
     desc: 'NODE.JS, PUPPETEER, AXIOS',
-    demo: 'https://github.com/MishynMykhailo/parser-sites',
+    demo: '',
     code: 'https://github.com/MishynMykhailo/parser-sites',
   },
   {
