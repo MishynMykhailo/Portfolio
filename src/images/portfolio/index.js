@@ -9,39 +9,12 @@ import PizzaStyle from '../portfolio/PizzaStyle.jpg';
 
 const images = [
   {
-    name: 'bookreaderBackEnd',
-    img: bookreaderBackEnd,
-    desc: 'NODE.JS, MONGODB, EXPRESS, SWAGGER',
-    demo: '',
-    code: 'https://github.com/nataliakif/BR-backend',
-  },
-  {
     name: 'contactBook',
     img: contactBook,
     desc: 'REACT/REDUX, REACT-ROUTER, MATERIAL-UI, REDUX-THUNK',
     demo: 'https://mishynmykhailo.github.io/goit-react-hw-08-phonebook/',
     code: 'https://github.com/MishynMykhailo/goit-react-hw-08-phonebook',
-  },
-  {
-    name: 'filmoteka',
-    img: filmoteka,
-    desc: 'HTML, CSS, SASS, JS',
-    demo: 'https://nataliakif.github.io/project-filmoteka/',
-    code: 'https://github.com/nataliakif/project-filmoteka',
-  },
-  {
-    name: 'iceCream',
-    img: iceCream,
-    desc: 'HTML, CSS, SASS',
-    demo: 'https://nataliakif.github.io/IceCream-project8/',
-    code: 'https://github.com/nataliakif/IceCream-project8',
-  },
-  {
-    name: 'webStudio',
-    img: webStudio,
-    desc: 'HTML, CSS, SASS',
-    demo: 'https://mishynmykhailo.github.io/goit-markup-hw-08/',
-    code: 'https://github.com/MishynMykhailo/goit-markup-hw-08',
+    filter: 'frontend',
   },
   {
     name: 'laravel-book-library',
@@ -49,13 +22,7 @@ const images = [
     desc: 'PHP, LARAVEL, COMPOSER',
     demo: '',
     code: 'https://github.com/MishynMykhailo/Laravel-book-library',
-  },
-  {
-    name: 'parser-sites',
-    img: ParserSite,
-    desc: 'NODE.JS, PUPPETEER, AXIOS',
-    demo: '',
-    code: 'https://github.com/MishynMykhailo/parser-sites',
+    filter: 'frontend',
   },
   {
     name: 'pizza-style-testtask',
@@ -63,6 +30,47 @@ const images = [
     desc: 'REACT/REDUX, REACT-ROUTER-DOM, PERSISTENT-STORAGE',
     demo: 'https://mishynmykhailo.github.io/pizza-style-testtask/',
     code: 'https://github.com/MishynMykhailo/pizza-style-testtask',
+    filter: 'frontend',
+  },
+  {
+    name: 'filmoteka',
+    img: filmoteka,
+    desc: 'HTML, CSS, SASS, JS',
+    demo: 'https://nataliakif.github.io/project-filmoteka/',
+    code: 'https://github.com/nataliakif/project-filmoteka',
+    filter: 'frontend',
+  },
+  {
+    name: 'iceCream',
+    img: iceCream,
+    desc: 'HTML, CSS, SASS',
+    demo: 'https://nataliakif.github.io/IceCream-project8/',
+    code: 'https://github.com/nataliakif/IceCream-project8',
+    filter: 'frontend',
+  },
+  {
+    name: 'webStudio',
+    img: webStudio,
+    desc: 'HTML, CSS, SASS',
+    demo: 'https://mishynmykhailo.github.io/goit-markup-hw-08/',
+    code: 'https://github.com/MishynMykhailo/goit-markup-hw-08',
+    filter: 'frontend',
+  },
+  {
+    name: 'parser-sites',
+    img: ParserSite,
+    desc: 'NODE.JS, PUPPETEER, AXIOS',
+    demo: '',
+    code: 'https://github.com/MishynMykhailo/parser-sites',
+    filter: 'backend',
+  },
+  {
+    name: 'bookreaderBackEnd',
+    img: bookreaderBackEnd,
+    desc: 'NODE.JS, MONGODB, EXPRESS, SWAGGER',
+    demo: '',
+    code: 'https://github.com/nataliakif/BR-backend',
+    filter: 'backend',
   },
 ];
 export default images;
