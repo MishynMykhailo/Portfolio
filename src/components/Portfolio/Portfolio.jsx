@@ -6,7 +6,6 @@ function Portfolio() {
   const [testTaskFilter, setTestTaskFilter] = useState(Boolean);
   const [frontEndFilter, setFrontEndFilter] = useState(Boolean);
   const [backEndFilter, setBackEndFilter] = useState(Boolean);
-  const filterTag = ['testTask', 'frontEnd', 'backEnd'];
   const handlerFilter = e => {
     const name = e.currentTarget.name;
     switch (name) {
