@@ -1,17 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.339eb806.css",
-    "main.js": "/Portfolio/static/js/main.57a8c7e8.js",
+    "main.js": "/Portfolio/static/js/main.a5bc36db.js",
     "static/css/399.e879b935.chunk.css": "/Portfolio/static/css/399.e879b935.chunk.css",
     "static/js/399.8055cfc3.chunk.js": "/Portfolio/static/js/399.8055cfc3.chunk.js",
     "static/css/49.75dd5975.chunk.css": "/Portfolio/static/css/49.75dd5975.chunk.css",
     "static/js/49.de35cf4d.chunk.js": "/Portfolio/static/js/49.de35cf4d.chunk.js",
+    "static/media/VueProject.jpg": "/Portfolio/static/media/VueProject.603adc522eac2855799e.jpg",
+    "static/media/PhonebookTesttask.jpg": "/Portfolio/static/media/PhonebookTesttask.4bf63e5b0941c6b6f26f.jpg",
     "static/media/PizzaStyle.jpg": "/Portfolio/static/media/PizzaStyle.481f21b607e6ece2ab0f.jpg",
+    "static/media/GowebTesttask.jpg": "/Portfolio/static/media/GowebTesttask.1e90294738dc954dfc64.jpg",
     "static/media/WebStudio.jpg": "/Portfolio/static/media/WebStudio.2c4c3866662193eb0f23.jpg",
     "static/media/Filmoteka.jpg": "/Portfolio/static/media/Filmoteka.1186de4d852f6f328f96.jpg",
+    "static/media/TeskTaskTovaruIzUSA.jpg": "/Portfolio/static/media/TeskTaskTovaruIzUSA.0011a4f925ba85531cba.jpg",
+    "static/media/TestTaskRadency2.jpg": "/Portfolio/static/media/TestTaskRadency2.4932599bda90649e6b72.jpg",
+    "static/media/TestTaskRadency1.jpg": "/Portfolio/static/media/TestTaskRadency1.e868a9ca8be542b1ef86.jpg",
     "static/media/BookReaderBackEnd.jpg": "/Portfolio/static/media/BookReaderBackEnd.ddae4ba3a62a9a36fe00.jpg",
+    "static/media/TestTaskRadency3.jpg": "/Portfolio/static/media/TestTaskRadency3.a03086a374ac9955bf43.jpg",
+    "static/media/CleveroadTesttask.jpg": "/Portfolio/static/media/CleveroadTesttask.9541c6c468e471093d0a.jpg",
     "static/media/ParserSite.jpg": "/Portfolio/static/media/ParserSite.bac3ce5480bc58be58d5.jpg",
     "static/media/Ice-Cream.jpg": "/Portfolio/static/media/Ice-Cream.12e04910be95379dbf23.jpg",
+    "static/media/TestShortUrlProject.jpg": "/Portfolio/static/media/TestShortUrlProject.871dfe7ec769d5788b4f.jpg",
     "static/media/ContactBook.jpg": "/Portfolio/static/media/ContactBook.e73bbaad86e655c4215d.jpg",
     "static/media/LaravelLibrary.jpg": "/Portfolio/static/media/LaravelLibrary.f0ffa6ac8b67f4ddc8d4.jpg",
     "static/media/mariaDB-logo.png": "/Portfolio/static/media/mariaDB-logo.d1ac6c8b098e58fd4610.png",
@@ -37,7 +46,7 @@
     "static/media/home.svg": "/Portfolio/static/media/home.b0326f941b5b3e1f3610df7b498b138b.svg",
     "static/media/projects.svg": "/Portfolio/static/media/projects.92a0a2e994af0a15f16190c90a4b0eea.svg",
     "main.339eb806.css.map": "/Portfolio/static/css/main.339eb806.css.map",
-    "main.57a8c7e8.js.map": "/Portfolio/static/js/main.57a8c7e8.js.map",
+    "main.a5bc36db.js.map": "/Portfolio/static/js/main.a5bc36db.js.map",
     "399.e879b935.chunk.css.map": "/Portfolio/static/css/399.e879b935.chunk.css.map",
     "399.8055cfc3.chunk.js.map": "/Portfolio/static/js/399.8055cfc3.chunk.js.map",
     "49.75dd5975.chunk.css.map": "/Portfolio/static/css/49.75dd5975.chunk.css.map",
@@ -45,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.339eb806.css",
-    "static/js/main.57a8c7e8.js"
+    "static/js/main.a5bc36db.js"
   ]
 }
