@@ -52,15 +52,37 @@ function About() {
                 <WorkSVG className={s.workSVG} />
               </span>
               <span>
+                <p className={s.namePosition}>Front-End Developer</p>
+                <p>Mar 2023 - ... | Plash</p>
+                <p>
+                  I work on the team that deals with arbitrage traffic and my
+                  role is focused on the technical aspects of Frontend
+                  development. My duties include:
+                  <br />
+                  1. Troubleshooting any issues that arise
+                  <br />
+                  2. Setting up the site before launching advertising campaigns
+                  <br />
+                  3. Ensure that the site is optimized for usability and
+                  performance
+                </p>
+              </span>
+            </li>
+            <li className={s.liWork}>
+              <span>
+                <WorkSVG className={s.workSVG} />
+              </span>
+              <span>
                 <p className={s.namePosition}>Content Manager</p>
                 <p>Jun 2021 - Feb 2022 | Aliance</p>
                 <p>
                   My duties included: Workedin the following CMS:
                   <br />
-                  Tilda/WordPress/OpenCart.
-                  <br /> Supervising my two subordinates. Control over the
-                  quality of content. Search for products and descriptions for
-                  the right niche.
+                  1. Tilda/WordPress/OpenCart.
+                  <br />
+                  2. Supervising my two subordinates. Control over the quality
+                  of content. Search for products and descriptions for the right
+                  niche.
                 </p>
               </span>
             </li>
@@ -72,8 +94,13 @@ function About() {
                 <p className={s.namePosition}>Sales Expert</p>
                 <p>Apr 2021 - Jun 2021 | Vodafone</p>
                 <p>
-                  My duties included: Working with people. Assisting with
-                  companyrelated issues. Selling retail products.
+                  My duties included:
+                  <br />
+                  1. Working with people.
+                  <br />
+                  2. Assisting with
+                  <br />
+                  3. companyrelated issues. Selling retail products.
                 </p>
               </span>
             </li>
