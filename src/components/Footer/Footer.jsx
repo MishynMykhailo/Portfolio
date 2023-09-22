@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Footer.module.scss';
 import { ReactComponent as GitHubSVG } from '../../images/footer/github.svg';
 import { ReactComponent as LinkedinSVG } from '../../images/footer/linkedin.svg';
-import { ReactComponent as InstagramSVG } from '../../images/footer/instagram.svg';
 function Footer() {
   return (
     <>
@@ -27,16 +26,6 @@ function Footer() {
             >
               <LinkedinSVG className={s.SVG} />
               <p className={s.p}>LinkedIn</p>
-            </a>
-          </li>
-          <li className={s.li}>
-            <a
-              className={s.a}
-              target="blank"
-              href="https://www.instagram.com/mikhailmishi/"
-            >
-              <InstagramSVG className={s.SVG} />
-              <p className={s.p}>Instagram</p>
             </a>
           </li>
         </ul>
